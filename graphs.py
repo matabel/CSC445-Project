@@ -18,6 +18,7 @@ class Node(object):
         self.data = data
         self.weight = weight
         self.neighbors = []
+        self.visited = False
         self.initialized = False
 
 
